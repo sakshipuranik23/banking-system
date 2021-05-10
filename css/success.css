@@ -1,0 +1,77 @@
+:root {
+    --blue: #B7CBC0;
+    --green: #D2D8B6;
+    --dpink: #FDC7AB;
+    --lpink: #FEDEB7;
+  }
+
+  .box{
+      background-color: var(--dpink);
+      height: 600px;
+      width: 500px;
+      position: absolute;
+	  top:0;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;  	
+	  margin: auto;
+      padding: 10px; 
+      box-shadow: 5px 10px #888888;
+
+  }
+  .sec1{
+    height:300px;
+    width:100%;
+    /*background-color: black;*/
+}
+
+.sec1 img{
+    width: 300px;
+    height: 300px;
+    margin: 0px 22%; 
+    
+}
+  
+.sec2{
+    height:100px;
+    width:100%;
+   /* background-color: white;*/
+    
+}
+.sec2 div{
+    color:black;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+   
+}
+.sub2{
+    color: green;
+}
+
+.sub1{
+    font-size: 15px;
+    color: black;
+}
+.sec3{
+    height:150px;
+    width: 480px;
+    /*background-color: red;*/
+    position: relative;
+}
+
+.sec3 a{
+    height: 70px;
+    width: 150px;
+    background-color:var(--blue);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -75px 0 0 -75px;
+    border:5px solid white;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
