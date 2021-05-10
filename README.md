@@ -1,2 +1,3 @@
-# banking-system
-GRIP Internship Task1
+# Banking-system
+- GRIP Internship Task1
+
